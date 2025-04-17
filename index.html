@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angineering Co. 昂工科技 - 數位轉型與流程自動化</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Noto Sans TC font globally */
+        body {
+            font-family: 'Noto Sans TC', 'Inter', sans-serif; /* Prioritize Noto Sans TC */
+        }
+
+        /* --- Animations (Keep as is) --- */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; }
+        .hero-text { animation-delay: 0.2s; }
+        .hero-subtext { animation-delay: 0.4s; }
+        .hero-button { animation-delay: 0.6s; }
+
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-blue-700 hover:text-blue-900 transition duration-300">
+                Angineering Co.
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-blue-700 transition duration-300">首頁</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-700 transition duration-300">關於我們</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-700 transition duration-300">服務項目</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-blue-700 transition duration-300">成功案例</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-700 transition duration-300">聯絡我們</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden bg-white py-2 border-t">
+            <a href="#home" class="block px-6 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-700">首頁</a>
+            <a href="#about" class="block px-6 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-700">關於我們</a>
+            <a href="#services" class="block px-6 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-700">服務項目</a>
+            <a href="#portfolio" class="block px-6 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-700">成功案例</a>
+            <a href="#contact" class="block px-6 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-700">聯絡我們</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 fade-in-up hero-text">
+                    數位轉型傳統企業
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-blue-100 max-w-3xl mx-auto fade-in-up hero-subtext">
+                    Angineering Co. 與您攜手打造客製化軟體並自動化流程，為您在台北及其他地區的業務提升效率、促進成長。
+                </p>
+                <a href="#contact" class="bg-white text-blue-700 font-semibold py-3 px-8 rounded-full hover:bg-gray-100 hover:shadow-lg transition duration-300 transform hover:-translate-y-1 inline-block fade-in-up hero-button">
+                    預約免費諮詢
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+                    關於 Angineering Co.
+                </h2>
+                <div class="max-w-3xl mx-auto text-center text-gray-600 space-y-4">
+                    <p>
+                        Angineering Co. (昂工科技) 在台北成立，致力於連結科技與傳統產業。我們專精於打造客製化的數位解決方案，深刻理解傳統企業面臨的獨特挑戰，並致力於協助他們進行現代化、自動化，在數位時代蓬勃發展。
+                    </p>
+                    <p>
+                        我們的使命是透過創新的軟體開發、策略性的數位轉型和高效的流程自動化，為在地企業賦能，提供實質成果與長遠價值。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+                    我們的核心服務
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-center mb-3 text-gray-800">
+                            數位轉型
+                        </h3>
+                        <p class="text-gray-600 text-center">
+                            將舊有系統現代化、利用雲端能力、分析數據並創建新的數位通路，以提升競爭力。
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                             <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-center mb-3 text-gray-800">
+                            流程自動化
+                        </h3>
+                        <p class="text-gray-600 text-center">
+                            優化工作流程、導入 RPA、整合系統並自動化重複性任務，以減少錯誤並提升效率。
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                             <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-center mb-3 text-gray-800">
+                            客製化軟體
+                        </h3>
+                        <p class="text-gray-600 text-center">
+                            開發量身訂製的企業後台系統、API 及整合方案，專為滿足您獨特的業務需求而設計。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-16 md:py-24 bg-white">
+          <div class="container mx-auto px-6">
+              <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
+                  成功案例
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                  <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden group">
+                      <img src="images/StayEasy_GAS.png" alt="包租代管系統截圖" class="w-full h-48 object-cover group-hover:opacity-80 transition duration-300">
+                      <div class="p-6">
+                          <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                              包租代管業管理系統
+                          </h3>
+                          <p class="text-gray-600 mb-4 text-sm">
+                              開發自動化租賃合約管理、房源訂單管理、排程，提升管理效率 30%。
+                          </p>
+                          <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-600 bg-purple-100">客製軟體</span>
+                          <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-cyan-600 bg-cyan-100 ml-2">包租代管業</span>
+                      </div>
+                  </div>
+                  <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden group">
+                      <img src="images/StayEasy_Linebot.png" alt="清潔服務智慧排程截圖" class="w-full h-48 object-cover group-hover:opacity-80 transition duration-300">
+                      <div class="p-6">
+                          <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                              清潔服務智慧排程
+                          </h3>
+                          <p class="text-gray-600 mb-4 text-sm">
+                              建置Line機器人自動化任務指派，取代人為提醒，優化清潔人員排程及滿意度。
+                          </p>
+                           <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-600 bg-indigo-100">流程自動化</span>
+                           <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lime-600 bg-lime-100 ml-2">清潔服務業</span>
+                      </div>
+                  </div>
+               </div>
+          </div>
+      </section>
+
+        <section id="contact" class="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                    聯絡我們
+                </h2>
+                <div class="max-w-xl mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-xl">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKZnFMUdkWTo5BA2B37Vjv6kR0fBfEjqlZX4HXfdNgeaX2wg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <div class="mt-8 text-center text-sm text-gray-600">
+                        <p>
+                            或直接聯絡我們：
+                        </p>
+                        <p>
+                            電子郵件：
+                            <a href="mailto:hello@angineering.co" class="text-blue-600 hover:underline">hello@angineering.co</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>
+                &copy; 2025 Angineering Co. (昂工科技有限公司). 保留所有權利。
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mobile Menu Toggle ---
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                 mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // --- Language Switching Logic Removed ---
+
+    </script>
+
+</body>
+</html>
