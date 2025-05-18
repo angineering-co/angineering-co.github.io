@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://angineering.co/</loc>
+      <lastmod>2025-05-18</lastmod> <!-- Replace with the last modification date of your index.html -->
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <!-- If you had other pages like about.html, services.html, etc., you would add more <url> blocks here -->
+   <!--
+   <url>
+      <loc>https://your-domain.com/about.html</loc>
+      <lastmod>2023-10-27</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   -->
+</urlset>
