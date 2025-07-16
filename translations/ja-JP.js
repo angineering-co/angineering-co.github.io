@@ -7,7 +7,7 @@ const translations_ja_JP = {
   
   "hero.company": "Angineering Co.",
   "hero.subtitle": "昂工科技有限公司",
-  "hero.tagline": "あなたの企業専用のデジタルソリューション",
+  "hero.tagline": "あなたの技術パートナー、産業の課題を解決する",
   "hero.cta": "無料相談を予約",
   
   "about.title": "Angineering Co. について",

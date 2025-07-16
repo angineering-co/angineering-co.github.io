@@ -6,8 +6,8 @@ const translations_en_US = {
   "nav.contact": "Contact",
   
   "hero.company": "Angineering Co.",
-  "hero.subtitle": "Engineering Solutions Ltd.",
-  "hero.tagline": "Custom Digital Solutions for Your Business",
+  "hero.subtitle": "昂工科技有限公司",
+  "hero.tagline": "Your technical partner for solving industry pain points",
   "hero.cta": "Schedule Free Consultation",
   
   "about.title": "About Angineering Co.",
@@ -16,7 +16,7 @@ const translations_en_US = {
   
   "services.title": "Our Core Services",
   "services.digital.title": "Digital Transformation",
-  "services.digital.description": "Modernize legacy systems, leverage cloud capabilities, analyze data, and create new digital channels to enhance competitiveness.",
+  "services.digital.description": "Modernize legacy systems, leverage cloud, analyze data, and create new digital channels to enhance competitiveness.",
   "services.automation.title": "Process Automation",
   "services.automation.description": "Optimize workflows, integrate systems, and automate repetitive tasks to reduce errors and improve efficiency.",
   "services.software.title": "Custom Software",

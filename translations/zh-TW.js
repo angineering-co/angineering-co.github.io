@@ -7,7 +7,7 @@ const translations_zh_TW = {
   
   "hero.company": "Angineering Co.",
   "hero.subtitle": "昂工科技有限公司",
-  "hero.tagline": "為您的企業打造專屬數位解決方案",
+  "hero.tagline": "您的技術夥伴，一起解決產業痛點",
   "hero.cta": "預約免費諮詢",
   
   "about.title": "關於 Angineering Co.",
@@ -16,7 +16,7 @@ const translations_zh_TW = {
   
   "services.title": "我們的核心服務",
   "services.digital.title": "數位轉型",
-  "services.digital.description": "將舊有系統現代化、利用雲端能力、分析數據並創建新的數位通路，以提升競爭力。",
+  "services.digital.description": "將舊有系統現代化、利用雲端、分析數據並創建新的數位通路，以提升競爭力。",
   "services.automation.title": "流程自動化",
   "services.automation.description": "優化工作流程、整合系統並自動化重複性任務，以減少錯誤並提升效率。",
   "services.software.title": "客製化軟體",
