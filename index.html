@@ -24,11 +24,11 @@
             font-family: 'Noto Sans TC', 'Noto Sans JP', 'Inter', sans-serif;
         }
 
-        body[lang="en-US"] {
+        html[lang="en-US"] body {
             font-family: 'Inter', 'Noto Sans TC', sans-serif;
         }
 
-        body[lang="ja-JP"] {
+        html[lang="ja-JP"] body {
             font-family: 'Noto Sans JP', 'Inter', sans-serif;
         }
 
@@ -386,7 +386,7 @@
             };
 
             document.getElementById('current-language').textContent = languageNames[lang];
-            document.body.setAttribute('lang', lang);
+            document.documentElement.setAttribute('lang', lang);
         }
 
         // Switch language
