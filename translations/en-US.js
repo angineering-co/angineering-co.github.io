@@ -44,7 +44,7 @@ const translations_en_US = {
   "contact.or_contact": "Or contact us directly:",
   "contact.email": "Email:",
   
-  "footer.copyright": "© 2025 Angineering Co. (Engineering Solutions Ltd.). All rights reserved."
+  "footer.copyright": "© 2025 Angineering Co. All rights reserved."
 };
 
 if (typeof module !== 'undefined' && module.exports) {
