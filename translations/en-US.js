@@ -28,7 +28,7 @@ const translations_en_US = {
   "portfolio.cleaning.title": "Smart Cleaning Service Scheduling",
   "portfolio.cleaning.description": "Built Line bot for automated task assignment, replacing manual reminders and optimizing cleaning staff scheduling and satisfaction.",
   "portfolio.realestate.title": "Real Estate Development System",
-  "portfolio.realestate.description": "Developed web scraper for real-time property listing aggregation, saving 20% of business development time.",
+  "portfolio.realestate.description": "Developed AI automation for real-time property listing aggregation, saving 60% of business development time.",
   "portfolio.accounting.title": "Accounting Firm Audit System",
   "portfolio.accounting.description": "Developed audit system integrating accounting firm workflows, accelerating audit processes by 40% and improving efficiency.",
   
