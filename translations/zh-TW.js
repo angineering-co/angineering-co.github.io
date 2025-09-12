@@ -27,8 +27,8 @@ const translations_zh_TW = {
   "portfolio.rental.description": "開發自動化租賃合約管理、房源訂單管理、排程，提升管理效率 30%。",
   "portfolio.cleaning.title": "清潔服務智慧排程",
   "portfolio.cleaning.description": "建置Line機器人自動化任務指派，取代人為提醒，優化清潔人員排程及滿意度。",
-  "portfolio.realestate.title": "房地產開發系統",
-  "portfolio.realestate.description": "開發網路爬蟲，即時統整新房源上架資訊，節省業務開發20%時間。",
+  "portfolio.realestate.title": "房源開發系統",
+  "portfolio.realestate.description": "開發AI自動化，即時統整新房源上架資訊，節省業務開發60%時間。",
   "portfolio.accounting.title": "會計事務所 審計系統",
   "portfolio.accounting.description": "開發審計系統，整合會計師事務所的業務流程，加速審計流程40%，提升工作效率。",
   

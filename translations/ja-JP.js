@@ -28,7 +28,7 @@ const translations_ja_JP = {
   "portfolio.cleaning.title": "清掃サービススマートスケジューリング",
   "portfolio.cleaning.description": "自動タスク割り当てのためのLINEボットを構築し、手動リマインダーを置き換え、清掃スタッフのスケジューリングと満足度を最適化しました。",
   "portfolio.realestate.title": "不動産開発システム",
-  "portfolio.realestate.description": "リアルタイム物件情報統合のためのウェブスクレーパーを開発し、営業開発時間を20%短縮しました。",
+  "portfolio.realestate.description": "リアルタイム物件情報統合のためのAI自動化を開発し、営業開発時間を60%短縮しました。",
   "portfolio.accounting.title": "会計事務所監査システム",
   "portfolio.accounting.description": "会計事務所のワークフローを統合する監査システムを開発し、監査プロセスを40%加速し、作業効率を向上させました。",
   
